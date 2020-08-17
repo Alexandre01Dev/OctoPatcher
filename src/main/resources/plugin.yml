@@ -1,0 +1,9 @@
+name: OctoPatcher
+version: ${project.version}
+main: be.alexandre01.feedpatcher.feedpatcher.Patcher
+author: Alexandre01
+commands:
+  feedpatcher:
+    permission: feedpatcher.admin
+  poubelle:
+    aliases: [trash]
